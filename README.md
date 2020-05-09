@@ -6,10 +6,10 @@
 ![webcode_directory](img/webcode1.jpg)
 ## Dockerfile (Create custom image using docker file )
 ![Dockerfile](img/Dockerfile.jpg)
-### FROM -> keyword pull(download ) the httpd image from hub.docker.com site
-### MAINTAINER -> INFORMATION of Docker file creater in case i put only my name
-### COPY -> Work like cp command on linux system . here my webcode directory content copy on the httpd image /usr/local/apache2/htdocs directory
-### EXPOSE -> This use for connect the website outside world. i use port 80 bcz defualt port for http is 80.
+#### FROM -> keyword pull(download ) the httpd image from hub.docker.com site
+#### MAINTAINER -> INFORMATION of Docker file creater in case i put only my name
+#### COPY -> Work like cp command on linux system . here my webcode directory content copy on the httpd image /usr/local/apache2/htdocs directory
+#### EXPOSE -> This use for connect the website outside world. i use port 80 bcz defualt port for http is 80.
 
 ## I create my project on the local system so i want to deploy on the github for access to anywhere in world.
 ### So local directory create a repo .
@@ -38,7 +38,7 @@
 ![custom](img/build1.jpg)
 
 ## Run docker container using vishnupal:v1 image. and -p for PAT (expose the port 80).
-![Expose_run](img/build.2)
+![Expose_run](img/build2.jpg)
 ## Download the ngrok for port forwading using below command
 ## wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 ## unzip ngrok-stable-linux-amd64.zip
