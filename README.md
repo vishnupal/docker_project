@@ -49,8 +49,8 @@
 ![web browser](img/build5.jpg)
 
 ## Access the site using ngrok link(i change the url )
-### mobile browser
 ![mobile](img/build6.jpg)
+### mobile browser
 ![mobile_browser](img/mobile.jpg)
 
 
