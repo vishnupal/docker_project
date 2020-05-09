@@ -18,31 +18,30 @@
 ### git commit . -m "webserver" (for local version control )
 ![Commit](img/Commit.jpg)
 
-## Create github empty repo
+### Create github empty repo
 ![repo](img/github.jpg)
 ![repo1](img/github1.jpg)
 
-## Remote add local directory so run below command 
+### Remote add local directory so run below command 
 ![remote](img/remote.jpg)
-## git push -u vishnupal master (for upload the project on github)
+###  git push -u vishnupal master (for upload the project on github)
 ![git push](img/github3.jpg)
-## After push command github repo
+### After push command github repo
 ![github 111repo](img/github5.jpg)
 
-## For Creating a custom image using Dockerfile so i use kotacoda website 
-## https://www.katacoda.com/courses/container-runtimes/what-is-a-container
-## Below command build a custom image and image name is vishnupal:v1 and i give the my github repo url . it run the Dockerfile instruction and create a docker custon image according to my requirement.
+### For Creating a custom image using Dockerfile so i use kotacoda website 
+### https://www.katacoda.com/courses/container-runtimes/what-is-a-container
+### Below command build a custom image and image name is vishnupal:v1 and i give the my github repo url . it run the Dockerfile instruction and create a docker custon image according to my requirement.
 ![build docker image](img/build.jpg)
 
-## After run docker build command it pull httpd and create a custom image top of htttpd docker image.
+### After run docker build command it pull httpd and create a custom image top of htttpd docker image.
 ![custom](img/build1.jpg)
 
-## Run docker container using vishnupal:v1 image. and -p for PAT (expose the port 80).
+### Run docker container using vishnupal:v1 image. and -p for PAT (expose the port 80).
 ![Expose_run](img/build2.jpg)
-## Download the ngrok for port forwading using below command
-## wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
-## unzip ngrok-stable-linux-amd64.zip
-## Run ngrok on kotacoda site
+#### wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+### unzip ngrok-stable-linux-amd64.zip
+### Run ngrok on kotacoda site
 ![ngrok](img/build4.jpg)
 
 ## Access the site using ngrok link .
