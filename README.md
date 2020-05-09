@@ -27,7 +27,7 @@
 ## git push -u vishnupal master (for upload the project on github)
 ![git push](img/github3.jpg)
 ## After push command github repo
-![github repo](github5.jpg)
+![github 111repo](img/github5.jpg)
 
 ## For Creating a custom image using Dockerfile so i use kotacoda website 
 ## https://www.katacoda.com/courses/container-runtimes/what-is-a-container
@@ -35,7 +35,7 @@
 ![build docker image](img/build.jpg)
 
 ## After run docker build command it pull httpd and create a custom image top of htttpd docker image.
-![custom](img/build1.jpg]
+![custom](img/build1.jpg)
 
 ## Run docker container using vishnupal:v1 image. and -p for PAT (expose the port 80).
 ![Expose_run](img/build.2)
@@ -43,7 +43,7 @@
 ## wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 ## unzip ngrok-stable-linux-amd64.zip
 ## Run ngrok on kotacoda site
-![ngrok](build4.jpg)
+![ngrok](img/build4.jpg)
 
 ## Access the site using ngrok link .
 ### web browser
