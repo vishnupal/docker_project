@@ -2,5 +2,7 @@
 
 ### First of all i craete one webcode  directory on my local system in which i upload my website content  and one Dockerfile create
 ![Docker_project](img/git_fol.jpg)
-### WEBCODE directory 
+## WEBCODE directory ( Website content )
 ![webcode_directory](img/webcode1.jpg)
+## Dockerfile (Create custom image using docker file )
+![Dockerfile](img/Dockerfile.jpg)
